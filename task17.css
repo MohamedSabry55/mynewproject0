@@ -1,0 +1,157 @@
+div{
+    display: flex;
+    flex-wrap: wrap;
+}
+.left{
+    height: 100%;
+    width: 300px;
+    text-align: center;
+    position: relative;
+    border-right: 2px lightgrey solid;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+button{
+    width: 250px;
+    height: 70px;
+    background-color: transparent;
+    position: relative;
+    margin: 5px;
+    border: transparent;
+    border-radius: 10px;
+    transition: all 1s;
+    cursor: pointer;
+}
+.img1{
+    width: 60px; height: 60px;
+    border-radius: 60px;
+}
+.img2{
+    height: 60px;
+    position: absolute;
+    left: 10px; top: 5px;
+}
+.p1{
+    font-size: 25px;
+    position: absolute;
+    top: 0px; right: 10px;
+}
+.but2{
+    background-color: rgb(221, 210, 210);
+}
+.but1{
+    position: relative;
+    top: 10px;
+}
+h1{
+    position: relative;
+    top: 10px; right: -10px;
+    color: lightgrey;
+}
+button:hover{
+    background-color: orange;
+}
+span{
+    font-size: 30px;
+    font-family: fantasy;
+    position: relative;
+    left: 20px; top: 15px;
+}
+.sp2{
+    color: red;
+}
+.img3{
+    width: 50px; height: 40px;
+    position: absolute;
+    right: 800px; top: 10px;
+    background-color: rgb(243, 234, 234);
+    border-radius: 5px;
+}
+.top{
+    height: 50px; width: 1000px;
+    position: absolute;
+    top: 20px; left: 400px;
+}
+.p2{
+   color: lightgrey;
+   position: absolute;
+   right: 650px; top: 5px;
+}
+.img4{
+    width: 40px; height: 20px;
+    position: absolute;
+    right: 600px; top: 20px;
+}
+.p3{
+    font-size: 30px;
+    position: absolute;
+    right: 500px; top: -15px;
+}
+input{
+    width: 400px; height: 65px;
+    position: absolute;
+    right: -600px; top: 5px;
+    position: relative;
+    background-color: rgb(248, 245, 245);
+    padding-left: 75px;
+    border: transparent;
+    border-radius: 50px;
+    font-size: 30px;
+}
+.img5{
+    width: 55px; height: 40px;
+    position: absolute;
+    top: 20px; right: 340px;
+    border-radius: 10px;
+}
+.card{
+    width: 350px; height: 500px;
+    display: block; margin: 15px;
+    box-shadow: 0px 0px 10px 0px black;
+    text-align: center;
+    border-radius: 20px;
+    transition: all 1s;
+}
+.img6{
+    width: 300px; height: 250px;
+    border-radius: 50px;
+    margin-top: 5px;
+}
+.p4{
+    font-size: 35px;
+}
+.p5{
+    color: rgb(255, 180, 42);
+    font-size: 35px;
+}
+h3{
+    color: lightgrey;
+    font-size: 30px;
+}
+.img7{
+    width: 125px;
+    height: 125px;
+    border-radius: 100px;
+    position: absolute;
+    top: -125px; left: 300px;
+}
+.p6{
+    font-size: 40px;
+    position: absolute;
+    top: -125px; left: 170px;
+}
+.bottom{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: end;
+    align-content: flex-start;
+    flex-direction: row; 
+    width: 1150px;
+    position: absolute;
+    right: 5px; top: 250px;
+}
+.card:hover{
+    box-shadow: 0px 0px 15px 0px black;
+    border: 2px lightgrey solid;
+}
